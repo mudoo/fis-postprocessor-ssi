@@ -1,12 +1,12 @@
 {
   "name": "fis-postprocessor-ssi",
   "description": "Include ssi files to the html、css、js",
-  "version": "0.1.0",
-  "author": "darkmirrors <darkmirrors@163.com>",
-  "homepage": "http://darkmirrors.github.io",
+  "version": "0.1.1",
+  "author": "mudoo <mudoo@qq.com>",
+  "homepage": "https://github.com/mudoo/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/darkmirrors/fis-postprocessor-ssi"
+    "url": "https://github.com/mudoo/fis-postprocessor-ssi"
   },
   "keywords": [
     "fis",
@@ -22,6 +22,6 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/darkmirrors/fis-postprocessor-ssi/issues"
+    "url": "https://github.com/mudoo/fis-postprocessor-ssi/issues"
   }
 }

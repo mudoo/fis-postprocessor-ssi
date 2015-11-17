@@ -4,11 +4,14 @@
 
 由于项目中有用到apache 自带的ssi功能，所以需要将`<!--#include virtual="path/to/file(.css|js|html)"-->`引入的内容内嵌进html中。
 
+## 特性
+修复原版include页面没替换资源地址的问题
+
 ## 使用
 
 先安装
 
-> npm install -g fis-postprocessor-ssi
+> npm install -g fis-postprocessor-ssi2
 
 配置
 
@@ -33,3 +36,14 @@
         	}
     	}
 	});
+
+## FIS3用法
+```
+fis.match('*.{html,shtml}', {
+    postprocessor: fis.plugin('ssi',{
+        'ssi' : {
+            reg : /<!--#include\svirtual="([^"]+)"\s*-->/gim
+        }
+    })
+});
+```
